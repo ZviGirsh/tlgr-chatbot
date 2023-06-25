@@ -4,7 +4,7 @@ import openai
 from moviepy.editor import AudioFileClip
 import os
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = os.environ.get("OPENAI_API_KEY") # Your OpenAI API Key
 TELEGRAM_API_TOKEN = os.environ.get("TELEGRAM_API_TOKEN") # Your Telegram API Token
 model = "gpt-3.5-turbo-16k"
 
